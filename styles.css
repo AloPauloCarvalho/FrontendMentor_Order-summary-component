@@ -1,0 +1,189 @@
+:root{
+    --clr-primary-pale-blue: hsl(225, 100%, 94%);
+    --clr-primary-brith-blue: hsl(245, 75%, 52%);
+
+    --clr-neutral-pale-blue: hsl(225, 100%, 98%);
+    --clr-neutral-desat-blue: hsl(224, 23%, 55%);
+    --clr-neutral-dark-blue: hsl(223, 47%, 23%);
+
+    --fw-normal: 400;
+    --fw-bold: 700;
+    --fw-extra: 900;
+
+    --ff-primary: 'Red Hat Display', sans-serif;
+}
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  /*general styling*/
+
+  body{
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-normal);
+    font-size: 1rem;
+
+    background-color: var(--clr-primary-pale-blue);
+    display: grid;
+    place-content: center;
+  }
+
+  h1 {
+    color:var(--clr-neutral-dark-blue);
+    font-weight: var(--fw-extra);
+    text-align: center;
+  }
+  
+  p {
+    color: var(--clr-neutral-desat-blue);
+    text-align: center;
+  }
+
+  .payment-card {
+    background-color: white;
+    max-width: 450px;
+    margin: 1rem;
+
+    border-radius: 2rem;
+    overflow: hidden;
+
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
+  }
+
+  .payment-card-body {
+    padding: 2rem;
+    gap: 1rem;
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .payment-card-plan-display{
+    background-color: var(--clr-neutral-pale-blue);
+    
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    gap:1rem;
+    width: 100%;
+  }
+
+  .plan-type {
+    font-weight: var(--fw-extra);
+    font-size: 1rem;
+  }
+
+  @media (max-width: 220px){
+    .plan-type{
+        text-align: center;
+    }
+  }
+
+  img {
+    align-self: center;
+  }
+
+  .btn {
+    width: 100%;
+    border: 0;
+
+    cursor: pointer;
+  }
+
+  .payment-card-change-btn {
+    border:0;
+    cursor: pointer;
+    background-color: transparent;
+
+    font-weight: var(--fw-bold);
+    color:var(--clr-primary-brith-blue);
+    text-decoration: underline;
+
+    margin-left: auto;
+  }
+
+  @media (max-width: 371px) {
+    .payment-card-plan-display{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;  
+    }
+
+    .payment-card-change-btn{
+        margin:0;
+    }
+}
+
+
+  .payment-card-change-btn:hover {
+    text-decoration: none;
+    color: var(--clr-primary-brith-blue);
+  }
+
+
+  .payment-card-confirm-btn{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.8rem;
+    background-color: var(--clr-primary-brith-blue);
+
+    font-weight: var(--fw-bold);
+    color: white;
+    box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+    }
+
+    .payment-card-confirm-btn:hover{
+        background-color: var(--clr-primary-brith-blue);
+    }
+
+   .payment-card-cancel-btn{
+    background-color: transparent;
+
+    font-weight: var(--fw-extra);
+    color:var(--clr-neutral-desat-blue);
+   } 
+
+   .payment-card-cancel-btn:hover{
+    color:var(--clr-neutral-dark-blue);
+   }
+
+
+
