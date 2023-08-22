@@ -57,8 +57,18 @@
     font-size: 1rem;
 
     background-color: var(--clr-primary-pale-blue);
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat; 
+
     display: grid;
     place-content: center;
+  }
+
+  @media (max-width: 428px){
+    body{
+    background-image: url('./images/pattern-background-mobile.svg');
+    background-repeat: no-repeat; 
+    }
   }
 
   h1 {
