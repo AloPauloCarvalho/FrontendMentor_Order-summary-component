@@ -80,6 +80,11 @@
   p {
     color: var(--clr-neutral-desat-blue);
     text-align: center;
+
+  }
+
+  .payment-card-body-text {
+    width: 80%;
   }
 
   .payment-card {
