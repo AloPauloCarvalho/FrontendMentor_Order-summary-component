@@ -79,12 +79,15 @@
     color:var(--clr-neutral-dark-blue);
     font-weight: var(--fw-extra);
     text-align: center;
+
+    margin-top: 10px;
   }
   
   p {
     color: var(--clr-neutral-desat-blue);
     text-align: center;
 
+    margin-bottom: 10px;
   }
 
   .payment-card-body-text {
@@ -96,7 +99,7 @@
     max-width: 450px;
     margin: 1rem;
 
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     overflow: hidden;
 
     box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
