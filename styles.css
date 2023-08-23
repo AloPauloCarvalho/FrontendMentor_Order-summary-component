@@ -206,7 +206,6 @@
 
     .payment-card-confirm-btn:hover{
         background-color: var(--clr-primary-dark-blue);
-        color:white;
     }
 
    .payment-card-cancel-btn{
