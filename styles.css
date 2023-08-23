@@ -80,6 +80,8 @@
     font-weight: var(--fw-extra);
     text-align: center;
 
+    font-size: 1.35rem;
+
     margin-top: 10px;
   }
   
@@ -215,6 +217,8 @@
 
    .payment-card-cancel-btn{
     background-color: transparent;
+
+    margin-bottom: 1rem;
 
     font-weight: var(--fw-extra);
     color:var(--clr-neutral-desat-blue);
