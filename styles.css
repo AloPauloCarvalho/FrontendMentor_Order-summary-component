@@ -63,7 +63,6 @@
     place-content: center;
     align-items: center;
 
-    padding: 1rem;
   }
 
   @media (max-width: 428px){
