@@ -62,6 +62,8 @@
     display: grid;
     place-content: center;
     align-items: center;
+
+    padding: 1rem;
   }
 
   @media (max-width: 428px){
@@ -92,7 +94,6 @@
   .payment-card {
     background-color: white;
     max-width: 450px;
-    margin: 2rem;
 
     border-radius: 2rem;
     overflow: hidden;
