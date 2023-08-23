@@ -13,9 +13,6 @@
     --ff-primary: 'Red Hat Display', sans-serif;
 }
 
-*{
-    border: 1px solid red;
-}
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -64,6 +61,8 @@
 
     display: grid;
     place-content: center;
+
+    padding: 2rem;
   }
 
   @media (max-width: 428px){
