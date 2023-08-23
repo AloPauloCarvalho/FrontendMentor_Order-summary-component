@@ -78,14 +78,12 @@
     font-weight: var(--fw-extra);
     text-align: center;
 
-    font-size: 2rem;
   }
   
   p {
     color: var(--clr-neutral-desat-blue);
     text-align: center;
 
-    margin-bottom: 10px;
   }
 
   .payment-card-body-text {
