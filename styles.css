@@ -22,9 +22,9 @@
     margin: 0;
   }
 
-  html, body {
+  /* html, body {
     height: 100%;
-  }
+  }*/
 
   body {
     line-height: 1.5;
@@ -93,7 +93,7 @@
     background-color: white;
     max-width: 450px;
 
-    margin: 2rem;
+    margin: 1rem;
 
     border-radius: 1.5rem;
     overflow: hidden;
