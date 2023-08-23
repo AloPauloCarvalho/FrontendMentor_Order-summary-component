@@ -13,7 +13,9 @@
     --ff-primary: 'Red Hat Display', sans-serif;
 }
 
-
+*{
+    border: 1px solid red;
+}
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -111,13 +113,23 @@
   .payment-card-plan-display{
     background-color: var(--clr-neutral-pale-blue);
     
-    display: flex;
+    display: inline-flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     border-radius: 1rem;
     padding: 1rem;
 
     gap:1rem;
     width: 100%;
+  }
+
+  .payment-card-plan-display-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
   }
 
   .plan-type {
@@ -154,7 +166,7 @@
     margin-left: auto;
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 480px) {
     .payment-card-plan-display{
         display: flex;
         flex-wrap: wrap;
