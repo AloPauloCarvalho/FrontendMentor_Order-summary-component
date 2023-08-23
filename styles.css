@@ -61,14 +61,14 @@
 
     display: grid;
     place-content: center;
-
-    padding: 2rem;
   }
 
   @media (max-width: 428px){
     body{
     background-image: url('./images/pattern-background-mobile.svg');
     background-repeat: no-repeat; 
+
+    align-items: flex-start;
     }
   }
 
